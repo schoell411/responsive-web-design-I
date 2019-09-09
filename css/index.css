@@ -208,10 +208,32 @@ footer img, footer section {
 	text-align: center;
 	margin-top: 60px;
 }
+footer span {
+    padding-top: 25px;
+}
 
 /* responsive styling  */
 /* tablet view  */
-
+@media screen and (max-width:800px){
+    .top_header {
+        flex-direction: column-reverse;
+    }
+    .top_nav, .top_img {
+        width: 100%;
+        padding: 25px;
+    }
+    .top_img {
+        display: flex;
+        justify-content: center;
+    }
+    header img {
+        display: none;
+    }
+    .top_text {
+        width: 100%;
+        justify-content: center;
+    }
+}
 
 /* mobile view  */
 @media screen and (max-width:500px){
@@ -241,8 +263,5 @@ footer img, footer section {
     }
     #services, #product, #vision, #about, #features, .top_nav {
         width: 100%;
-    }
-    footer span {
-        padding-top: 25px;
     }
 }
