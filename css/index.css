@@ -70,17 +70,17 @@ h1, h2, h3, h4, h5 {
     justify-content: space-between;
 }
 .top_nav {
-    width: 80%;
+    width: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+    justify-content: space-around;
 }
 .top_nav a {
 	text-decoration: none;
 	color: grey;
 }
 header {
-	padding: 40px;
+	padding: 30px;
 	display: flex;
     align-items: center;
 }
@@ -109,7 +109,7 @@ h1 {
 }
 .top-img {
 	width: 45%;
-	height: 30em;
+    height: 30em;
 }
 h3 {
 	font-size: 15px;
@@ -259,6 +259,9 @@ footer img, footer section {
     h1 {
         font-size: 50px;
     }
+    .top_nav {
+        padding: 0;
+    }
     .top_nav a {
         width: 100%;
         text-align: center;
@@ -275,6 +278,13 @@ footer img, footer section {
         display: none;
     }
     #services, #product, #vision, #about, #features, .top_nav {
+        width: 100%;
+    }
+    /* service page styling  */
+    .services-header-img {
+        display: none;
+    }
+    .info-box {
         width: 100%;
     }
 }
